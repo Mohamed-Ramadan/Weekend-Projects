@@ -1,0 +1,123 @@
+﻿<html >
+	<head>
+		<title> تواصل معنا </title>
+		<script src="validateForm.js"></script>
+	</head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<body bgcolor="B18AF3">
+
+		<h4><p dir='rtl' lang='ar' align='center'> الرجاء التأكد من إدخال كافة البيانات التى بجوارها علامة * </p></h4>
+		<br/>
+		<form name="contactform" method="post" action="send_form_email.php" onsubmit="return validateForm()">
+		 
+			<table width="450px" align="center" style="background:#80BFFF" border="10pxl">
+			 
+			<tr>
+			 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>				 
+				  <input  type="text" name="first_name" maxlength="50"  size="35" >				 
+				 </td>
+				 
+				 <td valign="top">
+				  <label for="first_name"> <h3><p dir='rtl' lang='ar' >  الاسم الاول *</p></h3> </label>
+				 </td>
+					 
+			</tr>
+			 
+			<tr>
+				 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>
+				  <input  type="text" name="last_name" maxlength="50" size="35">
+				 </td>
+			
+				 <td valign="top"">
+				  <label for="last_name"><h3><p dir='rtl' lang='ar' >   الاسم الاخير *</p></h3></label>
+				 </td>
+			 
+			</tr>
+
+			<tr>
+		 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>			 
+				  <input  type="text" name="nID" maxlength="80" size="35">			 
+				 </td>
+				
+				 <td valign="top">
+				  <label for="email"><h3><p dir='rtl' lang='ar' >  الرقم القومى *</p></h3></label>
+				 </td>
+				 
+			</tr>
+
+			<tr>
+		 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>			 
+				  <input  type="text" name="telephone" maxlength="80" size="35">			 
+				 </td>
+				
+				 <td valign="top">
+				  <label for="email"><h3><p dir='rtl' lang='ar' >  رقم التليفون </p></h3></label>
+				 </td>
+				 
+			</tr>
+
+			<tr>
+		 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>			 
+				  <input  type="text" name="job" maxlength="80" size="35">			 
+				 </td>
+				
+				 <td valign="top">
+				  <label for="email"><h3><p dir='rtl' lang='ar' >  الوظيفة *</p></h3></label>
+				 </td>
+				 
+			</tr>		
+			<tr>
+		 
+				 <td valign="top" style="text-align:right" >			 
+				  <input  type="text" name="email" maxlength="80" size="35">			 
+				 </td>
+				
+				 <td valign="top">
+				  <label for="email"><h3><p dir='rtl' lang='ar' >  البريد الالكترونى *</p></h3></label>
+				 </td>
+				 
+			</tr>
+			 
+			<tr>
+			 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>			 
+				  <input  type="text" name="department" maxlength="30" size="35">			 
+				 </td>
+				 
+				 <td valign="top">			 
+				  <label for="telephone"><h3><p dir='rtl' lang='ar' >  القسم *</p></h3></label>			 
+				 </td>
+				 
+			</tr>
+			 
+			<tr>
+									 
+				 <td valign="top" style="text-align:right" lang='ar' dir='rtl'>			 
+				  <textarea  name="comments" maxlength="1000" cols="32" rows="10"></textarea>			 
+				 </td>
+				 
+				 <td valign="top">			 
+				  <label for="comments"><h3><p dir='rtl' lang='ar' >  الموضوع *</p></h3></label>			 
+				 </td>
+					
+			</tr>
+			<tr/>
+			<tr/>
+			<tr>
+				
+				 <td colspan="2" style="text-align:center">
+				  <input type="submit" value="إرسال"> 
+				 </td>
+			 
+			</tr>
+			 
+			</table>
+		 
+		</form>
+ </body>
+</html>
